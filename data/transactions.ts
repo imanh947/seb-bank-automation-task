@@ -1,0 +1,14 @@
+export interface Transaction {
+  amount: number;
+  type: 'Credit' | 'Debit';
+}
+
+export const transactions: Transaction[] = [
+  { amount: 50000, type: 'Credit' },
+  { amount: 3000, type: 'Debit' },
+  { amount: 2000, type: 'Debit' },
+  { amount: 5000, type: 'Credit' },
+  { amount: 10000, type: 'Debit' },
+  { amount: 15000, type: 'Debit' },
+  { amount: 1500, type: 'Credit' },
+];
